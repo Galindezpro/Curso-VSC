@@ -1,13 +1,7 @@
-console.log('Hola mundo')
-console.log('repositorio iniciado')
-
-
-const n = 22;
-function probando(n) {
-    if (n = 22) {
-        
-        return ('exito');
-    }
+// Código con error intencional
+function sumarNumeros(a, b) {
+    return a + b;
 }
 
-console.log(n)
+const resultado = sumarNumeros(5, x); // 'x' no está definida
+console.log("El resultado es:", resultado);
